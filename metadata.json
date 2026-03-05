@@ -1,0 +1,5 @@
+{
+  "name": "The Doctor's Orders",
+  "description": "A directory of all the correct coordinates of all the soft places on Earth through time and space.",
+  "requestFramePermissions": ["geolocation"]
+}
