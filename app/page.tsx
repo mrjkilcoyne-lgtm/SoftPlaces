@@ -124,7 +124,7 @@ export default function Home() {
       const ai = new GoogleGenAI({ apiKey: process.env.NEXT_PUBLIC_GEMINI_API_KEY });
       
       const response = await ai.models.generateContent({
-        model: 'gemini-3.1-flash-preview',
+        model: 'gemini-3-flash-preview',
         contents: 'Generate a new, fictional or mythological "soft place" on Earth where time and space are thin. It should fit the vibe of Doctor Who, mythology, or sci-fi anomalies. Provide realistic coordinates (lat/lng) somewhere on Earth. Make it creative and atmospheric.',
         config: {
           responseMimeType: 'application/json',
